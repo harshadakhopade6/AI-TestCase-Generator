@@ -1,41 +1,54 @@
-## 🌐 Live Demo
+# AI Test Case Generator
 
-Try the AI Test Case Generator here:
+A portfolio experiment exploring how AI can assist with test-design activities such as functional scenarios, negative cases, boundary values, and edge-case ideas.
 
-**🔗 Live Application:** https://ca6c8f39e3472b7e-223-233-86-180.serveousercontent.com/
+## Demo
 
-## ✨ Features
+The previous README listed this hosted demo endpoint:
 
-- AI-powered Test Case Generation
-- Functional Test Cases
-- Negative Test Cases
-- Boundary Value Analysis
-- Edge Case Generation
-- API Test Scenario Suggestions
-- Test Data Suggestions
-- Instant Results
+[Open the demo](https://ca6c8f39e3472b7e-223-233-86-180.serveousercontent.com/)
 
-https://github.com/user-attachments/assets/eed89f1f-7f67-4e30-b180-fed1ae62ae4c
+Hosted demo URLs can expire or become unavailable. Treat the link as optional until it has been checked recently.
 
-<img width="1917" height="947" alt="image" src="https://github.com/user-attachments/assets/73354899-d885-47c4-89b6-d8896f303d59" />
+## Intended test-design use cases
 
-## 🏗 Architecture
+The README and demo description focus on generating ideas for:
 
-Requirement
-        ↓
-Prompt Processing
-        ↓
-AI Model
-        ↓
-Generated Test Cases
+- Functional test scenarios
+- Negative test scenarios
+- Boundary-value ideas
+- Edge-case suggestions
+- API scenario suggestions
+- Test-data ideas
 
-## Techstack
-Antigravity
+AI-generated scenarios are suggestions, not verified test results. A tester should review them for correctness, completeness, testability, and business context before use.
 
-## 🚀 Future Enhancements
+## Current repository scope
 
+The public repository currently contains this README rather than the application's implementation source. As a result, the underlying prompt logic, model/provider configuration, dependencies, and generated-output handling cannot be reviewed from this repository.
 
-- Jira Integration
-- Azure DevOps Integration
-- Test Case Prioritization
+For a stronger technical portfolio, add the source code, setup instructions, a safe example input/output, and tests for the generation logic. Do not describe Jira or Azure DevOps integrations as implemented unless working code is added.
 
+## Conceptual workflow
+
+```text
+Requirement or feature description
+              |
+              v
+      Prompt / input handling
+              |
+              v
+      AI-assisted generation
+              |
+              v
+   Human review of suggested cases
+```
+
+This diagram describes the intended concept, not a verified implementation architecture.
+
+## Author
+
+**Harshada Khopade** · QA Automation and AI testing interests
+
+- [GitHub profile](https://github.com/harshadakhopade6)
+- [LinkedIn](https://www.linkedin.com/in/harshadakhopade/)
